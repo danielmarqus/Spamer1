@@ -1,0 +1,86 @@
+/* Resetando estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background: url('./Imagem\ do\ WhatsApp\ de\ 2024-11-17\ à\(s\)\ 14.15.59_0bc61dc6.jpg') no-repeat center center fixed;
+    background-size: 50%;
+    color: #030101;
+    line-height: 1.6;
+}
+
+header {
+    background-color: rgba(250, 0, 0, 0.9);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.8em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.informacoes h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #fc0000;
+}
+
+button {
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #ff0000;
+}
+
+.informacoes-container {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+}
+
+footer {
+    background-color: rgba(255, 0, 0, 0.9);
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contato, .redes-sociais {
+    margin-top: 180px;
+}
